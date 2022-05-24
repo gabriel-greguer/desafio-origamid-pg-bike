@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+a:focus {     
+    color: #FFF;    
+}
+
+#header{
+    background: #000;
+    height: 96px;
+    display: flex;
+    align-content: center;
+}
+
+#img-header{
+
+    width: 136px;
+    height: 32px;
+}
+
+#header-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 220px;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: center;
+
+}
+
+.link-nav{
+    font-family: "Poppins";
+    color: #FFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+#bike-nav{
+    border-bottom: 2px solid white;
+}
+
+#info{
+    background: #111111;
+}
+
+#tex-info{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: white;
+}
+
+h1{
+    color:#FFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    margin-left: 220px;
+}
+
+#ponto{
+    color: yellow;
+}
+
+#valor{
+    color: #B2B2B2;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    margin-top: 60px;
+    margin-left: 220px;
+    display: inline-block;
+}
+
+#grid-bicicleta{
+    display: grid;
+    width: 560px;
+    height: 572px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+#bike{
+
+    grid-column: 1/3;
+    grid-row: 1/2;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 5px;    
+}
+
+#bike2{
+    display: block;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+#bike3{
+    max-width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+#main{
+    display: flex;
+    padding-left: 220px;
+    gap: 40px;
+}
+
+#texto-paragrafo{
+    display: inline-block;
+    color: #B2B2B2;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#grid-info{
+    background: black;
+    width: 530px;
+    height: 296px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    gap: 32.6px;
+}
+
+#ficha{
+    width: 530px;
+    height: 296px;
+}
+
+#caracteristicas{
+    background: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 32px;
+    border-radius: 5px;
+    
+}
+
+.caracteristicas-item:nth-child(n+2)
+{
+    border-top: 1px solid #111111;
+}
+
+.caracteristicas-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+#grid-informacao{
+    display: grid;
+    grid-template-columns: 540px;
+    grid-template-rows: 162px 324px 296px;
+    justify-content: end;
+}
+
+.texto-info
+{
+    color:white;
+}
+
+.paragrafo-info{
+    color: #B2B2B2;
+}
